@@ -13,8 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        >
+      <body className=" w-full min-h-screen bg-linear-to-b  from-green-200 to-white">
         {children}
       </body>
     </html>
