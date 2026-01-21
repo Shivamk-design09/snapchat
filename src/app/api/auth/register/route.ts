@@ -38,12 +38,12 @@ export async function POST(req:NextRequest){
 
     }catch(error){
         return NextResponse.json(
-            {message:`register error ${error}`}
+            {message:`register error ${error}`},
             {status:500}
         )
     }
 }
-//first rule always connect the db
+//first rule always connect the db  
 // always connect the db 
 //name , email, password 
 // check if email exist or not
